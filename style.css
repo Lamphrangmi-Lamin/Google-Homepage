@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+nav {
+  position: absolute;
+  right: 0%;
+  top: 0%;
+  font-size: 13px;
+  margin-top: 0.7em;
+  margin-right: 1.5em;
+}
+
+nav .nav-link {
+  color: #747474;
+  margin-left: 0.9em;
+  text-decoration: none;
+}
+
+nav #sign-in {
+  background: #307fd8;
+  color: #fff;
+  padding: 0.4em;
+  border: none;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+#app-menu {
+  position: relative;
+  top: 0.5em;
+  padding: 1.3em 0.4em 0.4em 0.5em;
+  border-radius: 50%;
+}
+
+#app-menu :hover {
+  background-color: #8d9092;
+}
+
+.search-bar {
+  display: -ms-grid;
+  display: grid;
+  place-content: center;
+  position: relative;
+  top: 7rem;
+}
+
+.search-box {
+  position: absolute;
+  top: 80%;
+  left: 27%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left1;
+      -ms-flex-pack: left1;
+          justify-content: left1;
+  margin-top: 2em;
+  padding: 0.7em;
+  border: 1px solid #dfe1e5;
+  width: 45%;
+  border-radius: 4rem;
+}
+
+.search-box:hover {
+  -webkit-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.5);
+}
+
+.lower-buttons {
+  position: relative;
+  top: 6.8rem;
+}
+
+.lower-buttons a {
+  text-decoration: none;
+}
+
+.lower-buttons button {
+  padding: 0.7em 1em 0.7em 1em;
+  background: #f8f9fa;
+  color: #3c4043;
+  margin-right: 0.5em;
+  border: none;
+}
+
+.lower-buttons button:hover {
+  -webkit-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.5);
+}
+
+input {
+  width: 100%;
+  border: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+footer {
+  position: absolute;
+  bottom: 0%;
+  width: 100%;
+}
+
+footer .foo-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+/*# sourceMappingURL=style.css.map */
